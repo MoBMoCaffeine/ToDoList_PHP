@@ -1,26 +1,27 @@
 # 📋 PHP To-Do List (CLI)
 
-برنامج بسيط لإدارة المهام (To-Do list) مكتوب بلغة **PHP** ويعمل من سطر الأوامر.  
-التطبيق يسمح لك بـ:
-- عرض المهام الحالية
-- إضافة مهمة جديدة
-- حذف مهمة موجودة
-- الخروج من البرنامج  
+A simple **PHP CLI To-Do List** application.  
+This program allows you to:
+- View current tasks
+- Add a new task
+- Delete an existing task
+- Exit the program  
 
-كل المهام بتتخزن في ملف نصّي اسمه `todos.txt` في نفس مجلد البرنامج.
+All tasks are stored in a plain text file called `todos.txt` in the same directory as the script.
 
 ---
 
-## 🚀 التشغيل
+## 🚀 How to Run
 
-### المتطلبات
-- تثبيت [PHP](https://www.php.net/downloads) على جهازك  
-- نظام تشغيل يدعم الترمينال (Windows CMD / PowerShell أو Linux / macOS Terminal)
+### Requirements
+- [PHP](https://www.php.net/downloads) installed on your system  
+- A terminal (Windows CMD / PowerShell, Linux, or macOS Terminal)
 
-### الخطوات
-1. انسخ الملفات (`todo.php` و `todos.txt`) في مجلد واحد.  
-2. افتح الترمينال في نفس المجلد.  
-3. شغّل البرنامج:
+### Steps
+1. Place the files (`todo.php` and `todos.txt`) in the same folder.  
+2. Open a terminal in that folder.  
+3. Run the program:
    ```bash
    php todo.php
 ```
+
